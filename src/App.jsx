@@ -1,6 +1,11 @@
 import { useState } from 'react'
 import './App.css'
 import Layout from "./components/Layout"
+import Main from './components/Main'
+import Aside from "./components/Aside"
+import Blog from './components/Blog'
+import "./css/footer.less"
+
 
 function App() {
   
@@ -8,7 +13,11 @@ function App() {
   return (
     <main>
       <Layout>
-        hola
+        <div>
+          <Main></Main>
+          <Aside></Aside>
+          <Blog></Blog>
+        </div>
       </Layout>
     </main>
   )

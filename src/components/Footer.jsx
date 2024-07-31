@@ -1,6 +1,15 @@
-function Footer(params) {
+function Footer() {
     return(
         <footer>
+            <section>
+                <div>
+                    <img src="" alt="" />
+                    <img src="" alt="" />
+                    <img src="" alt="" />
+                    <img src="" alt="" />
+                    <img src="" alt="" />
+                </div>
+            </section>
             <ul>
                 <li>
                     <img src="" alt="" />
@@ -30,7 +39,7 @@ function Footer(params) {
                 </li>
                 <li>3</li>
             </ul>
-
+            <button>arriba</button>
         </footer>
     )
 }
