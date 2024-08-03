@@ -1,6 +1,18 @@
+import Aside from "../components/Aside";
+import Blog from "../components/Blog"
+import Layout from "../components/Layout";
+import Main from "../components/Main";
+
+
 function Inicio(){
+    
+    
     return (
-        <h3>inicio</h3>
+        <Layout>
+            <Main></Main>
+            <Aside></Aside>
+            <Blog></Blog>
+        </Layout>
     )
 }
 export default Inicio;
