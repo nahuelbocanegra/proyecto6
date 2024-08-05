@@ -2,9 +2,21 @@ function Aside(){
     return(
         <aside>
             <ul>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
+                <li>
+                    <div>
+                        <a href="">Destinos</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="">Gastronomia</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="">Relax</a>
+                    </div>
+                </li>
             </ul>
         </aside>
     )
