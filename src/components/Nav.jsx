@@ -6,14 +6,16 @@ function Nav(params) {
 
     return(
        <header>
-                <div>
-                    <input type="text" />
-                    <i class='bx bx-search-alt-2'></i>
+                <div className="inputSearch">
+                    <span>
+                        <input type="text" placeholder="Buscar"/>
+                        <i className='bx bx-search-alt-2'></i>
+                    </span>
                 </div>
                 <nav>
-                    <span>
-                        <i class='bx bx-menu'></i>
-                    </span>
+                    
+                    <i className='bx bx-menu'></i>
+                    
                     <ul>
                         <li>Inicio</li>
                         <li>Sobre mi</li>
@@ -23,11 +25,11 @@ function Nav(params) {
                         <li>Videos</li>
                     </ul>
                 </nav>
-                <div>
-                    <i class='bx bxl-instagram'></i>
-                    <i class='bx bxl-facebook'></i>
-                    <i class='bx bxl-pinterest-alt'></i>
-                    <i class='bx bxl-twitter'></i>
+                <div className="Social">
+                    <i className='bx bxl-instagram'></i>
+                    <i className='bx bxl-facebook'></i>
+                    <i className='bx bxl-pinterest-alt'></i>
+                    <i className='bx bxl-twitter'></i>
                 </div>
        </header>
                 
