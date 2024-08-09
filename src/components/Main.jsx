@@ -1,6 +1,6 @@
 function Main(){
     return(
-      <main>
+      <main className="main">
             <div>
                 <p>Blog de viajes</p>
                 <h1>Trotamundos</h1>

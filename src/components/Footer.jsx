@@ -51,8 +51,8 @@ function Footer() {
                     <h2>Unete a mi lista de correo</h2>
                     <form>
                         
-                        <label htmlFor="">Email</label>
-                        <input type="text" />
+                        <label htmlFor="EmailInput">Email</label>
+                        <input id="EmailInput" type="text"  placeholder="Ingresa tu email aqui"/>
                     
                         <button>Unirse</button>
                     </form>
@@ -69,7 +69,7 @@ function Footer() {
                     <p>Trotamundos con Wix.com</p>
                 </li>
                 
-                <button>arriba</button>
+                <button className="button-footer"><i class='bx bx-chevron-up'></i></button>
             </ul>
         </footer>
     )
