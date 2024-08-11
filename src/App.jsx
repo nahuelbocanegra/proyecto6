@@ -15,7 +15,6 @@ function App() {
       <Layout>
         <div>
           <Main></Main>
-          <Aside></Aside>
           <Blog></Blog>
         </div>
       </Layout>

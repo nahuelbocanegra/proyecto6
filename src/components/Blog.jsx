@@ -7,17 +7,22 @@ function Blog(){
                 <li className="post-blog">
                     <img src={img.piramides} alt="" />
                     <section>
-                        <div>
-
+                        <div className="data-blog-user">
+                           <span className="user">
+                                <i class='bx bxs-user'></i>
+                           </span>
+                            <span>
+                                <h5>Lorem, ipsum.</h5>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </span>
                         </div>
                         <div>
                             <h4>Lorem, ipsum dolor.</h4>
                             <p>
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                Obcaecati iusto consectetur rem exercitationem illum dolore.
                             </p>
                         </div>
-                        <div>
+                        <div className="content-comment">
                             <span><i class='bx bxs-heart'></i></span>
                             <span><i class='bx bx-comment'></i></span>
                         </div>
@@ -26,14 +31,19 @@ function Blog(){
                 <li className="post-blog">
                     <img src={img.montaña} alt="" />
                     <section>
-                        <div>
-
-                        </div>
+                        <div className="data-blog-user">
+                            <span className="user">
+                                    <i class='bx bxs-user'></i>
+                            </span>
+                                <span>
+                                    <h5>Lorem, ipsum.</h5>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </span>
+                            </div>
                         <div>
                             <h4>Lorem, ipsum dolor.</h4>
                             <p>
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                Obcaecati iusto consectetur rem exercitationem illum dolore.
                             </p>
                         </div>
                         <div>
@@ -46,14 +56,19 @@ function Blog(){
                 <li className="post-blog">
                     <img src={img.comida} alt="" />
                     <section>
-                        <div>
-
+                        <div className="data-blog-user">
+                           <span className="user">
+                                <i class='bx bxs-user'></i>
+                           </span>
+                            <span>
+                                <h5>Lorem, ipsum.</h5>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </span>
                         </div>
                         <div>
                             <h4>Lorem, ipsum dolor.</h4>
                             <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                Obcaecati iusto consectetur rem exercitationem illum dolore.
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elite.
                             </p>
                         </div>
                         <div>

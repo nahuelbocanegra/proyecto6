@@ -1,6 +1,7 @@
 @import url("./css/footer.less");
 @import url("./css/main.less");
 @import url("./css/blog.less");
+@import url("./css/aside.less");
 
 *{
     padding: 0;
