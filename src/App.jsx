@@ -1,24 +1,36 @@
-import { useState } from 'react'
+
 import './App.css'
-import Layout from "./components/Layout"
-import Main from './components/Main'
-import Aside from "./components/Aside"
-import Blog from './components/Blog'
 import "./css/footer.less"
+
+import Layout from "./components/Layout"
+import { BrowserRouter as Router ,Routes , Route } from 'react-router-dom'
+import Inicio from './pages/Inicio'
+import Destinos from './pages/Destinos'
+import Gastronomia from './pages/Gastronomia'
+import Relax from './pages/Relax'
+import Videos from './pages/Videos'
+import SobreMi from './pages/SobreMi'
 
 
 function App() {
   
 
   return (
-    <main>
+    <Router>
       <Layout>
-        <div>
-          <Main></Main>
-          <Blog></Blog>
-        </div>
+          <Routes>
+                <Route   path='/'  element={<Inicio/>}/>
+                <Route   path='/home/Destinos'  element={<Destinos/>}/>
+                <Route   path='/home/Gastronomia'  element={<Gastronomia/>}/>
+                <Route   path='/home/Relax'  element={<Relax/>}/>
+                <Route   path='/home/Videos'  element={<Videos/>}/>
+                <Route   path='/home/SobreMi'  element={<SobreMi/>}/>
+          </Routes>
       </Layout>
-    </main>
+    </Router>
+     
+ 
+
   )
 }
 

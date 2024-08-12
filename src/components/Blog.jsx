@@ -9,7 +9,7 @@ function Blog(){
                     <section>
                         <div className="data-blog-user">
                            <span className="user">
-                                <i class='bx bxs-user'></i>
+                                <i className='bx bxs-user'></i>
                            </span>
                             <span>
                                 <h5>Lorem, ipsum.</h5>
@@ -23,8 +23,8 @@ function Blog(){
                             </p>
                         </div>
                         <div className="content-comment">
-                            <span><i class='bx bxs-heart'></i></span>
-                            <span><i class='bx bx-comment'></i></span>
+                            <span><i className='bx bxs-heart'></i></span>
+                            <span><i className='bx bx-comment'></i></span>
                         </div>
                     </section>
                 </li>
@@ -33,7 +33,7 @@ function Blog(){
                     <section>
                         <div className="data-blog-user">
                             <span className="user">
-                                    <i class='bx bxs-user'></i>
+                                    <i className='bx bxs-user'></i>
                             </span>
                                 <span>
                                     <h5>Lorem, ipsum.</h5>
@@ -47,8 +47,8 @@ function Blog(){
                             </p>
                         </div>
                         <div>
-                            <span><i class='bx bxs-heart'></i></span>
-                            <span><i class='bx bx-comment'></i></span>
+                            <span><i className='bx bxs-heart'></i></span>
+                            <span><i className='bx bx-comment'></i></span>
                         </div>
                     </section>
                 </li>
@@ -58,7 +58,7 @@ function Blog(){
                     <section>
                         <div className="data-blog-user">
                            <span className="user">
-                                <i class='bx bxs-user'></i>
+                                <i className='bx bxs-user'></i>
                            </span>
                             <span>
                                 <h5>Lorem, ipsum.</h5>
@@ -72,8 +72,8 @@ function Blog(){
                             </p>
                         </div>
                         <div>
-                            <span><i class='bx bxs-heart'></i></span>
-                            <span><i class='bx bx-comment'></i></span>
+                            <span><i className='bx bxs-heart'></i></span>
+                            <span><i className='bx bx-comment'></i></span>
                         </div>
                     </section>
                 </li> 

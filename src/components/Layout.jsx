@@ -2,13 +2,13 @@ import Nav from "./Nav"
 import Footer from "./Footer"
 
 
-function Layout(props){
+function Layout({children}){
 
     return(
         <>
             <Nav></Nav>
             
-                {props.children}
+              {children}
 
             <Footer></Footer>
         </>

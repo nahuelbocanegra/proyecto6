@@ -16,3 +16,4 @@ function Gastronomia(){
         </section>
     )
 }
+export default Gastronomia;

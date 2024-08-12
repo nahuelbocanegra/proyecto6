@@ -69,7 +69,7 @@ function Footer() {
                     <p>Trotamundos con Wix.com</p>
                 </li>
                 
-                <button className="button-footer"><i class='bx bx-chevron-up'></i></button>
+                <button className="button-footer"><i className='bx bx-chevron-up'></i></button>
             </ul>
         </footer>
     )

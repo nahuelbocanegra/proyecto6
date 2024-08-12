@@ -8,11 +8,12 @@ function Inicio(){
     
     
     return (
-        <Layout>
+        <main>
             <Main></Main>
             <Aside></Aside>
             <Blog></Blog>
-        </Layout>
+        </main>
+        
     )
 }
 export default Inicio;

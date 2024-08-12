@@ -15,4 +15,4 @@ function Destinos(){
     )
 }
 
-export default Destinos
+export default Destinos;

@@ -8,6 +8,23 @@
     grid-column: 1fr 1fr;
     grid-row: 1fr 1fr
 }
+.navBar{
+    justify-content: space-around;
+    flex-direction: column;
+    list-style: none;
+    position: absolute;
+    top: 110px;
+    width: 250px;
+    height: 350px;
+    padding: 10px;
+    background-color: rgb(169, 167, 167);
+    transition: all 0.5s ease-in-out;
+    border-radius: 0 0 0 10px;
+    font-size: 1.2rem;
+    color: #ffffff;
+    font-weight: 600
+}
+
 
 header{
     .grid();
@@ -27,24 +44,24 @@ header{
             color: blue;
         }
         .visiblity-var{
-            .flex();
-            justify-content: space-around;
-            flex-direction: column;
-            list-style: none;
-            position: absolute;
-            top: 110px;
-            right: -15px;
-            width: 200px;
-            height: 300px;
-            padding: 10px;
-            background-color: aqua;
-            transition: all 0.5s ease-in-out;
 
+            .flex();
+            .navBar();
+            right: -15px;
+            
+            li:hover{
+                transition: all .2s ease-in;
+                scale: 1.3;
+                color: purple;
+                cursor: pointer;
+            }
+           
             
         }
         ul{
-            position: absolute;
-            right:  -100%;
+            .flex();
+            .navBar();
+            right: -400%;
         }
     }
     .inputSearch{
@@ -54,16 +71,21 @@ header{
         span{
             .flex();
             gap: 10px;
+
             border-bottom:1px solid rgb(116, 115, 115);
+
             height: 70%;
             width:100%;
             max-width: 300px;
             padding: 5px 10px;
+
             input{
+
                 width: 100%;
                 height: 100%;
                 border: 0;
                 background-color: transparent;
+
             }
         }
         i{
@@ -73,10 +95,12 @@ header{
     }
         
     .Social{
+
         grid-area: social;
         .flex();
         gap: 10px;
         justify-content: start;
+
         font-size: 1.7rem;
         color: rgb(86, 86, 86);;
     }
