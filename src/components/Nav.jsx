@@ -14,9 +14,9 @@ function Nav(params) {
                 </div>
                 <nav>
                     
-                    <i className='bx bx-menu'></i>
+                    <i onClick={()=>{setVisibility(!visibility)}} className='bx bx-menu'></i>
                     
-                    <ul>
+                <ul className={`${visibility? " ":"visiblity-var"}`}>
                         <li>Inicio</li>
                         <li>Sobre mi</li>
                         <li>Destinos</li>
