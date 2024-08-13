@@ -2,7 +2,7 @@ import Aside from "./Aside"
 
 function Main(){
     return(
-      <main className="main">
+      <main id="main" className="main">
             <div className="main-div">
                 <p>Blog de viajes</p>
                 <h1>Trotamundos</h1>

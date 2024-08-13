@@ -1,11 +1,21 @@
+import { useEffect } from "react";
 import img from "../assets/img/img";
+import AOS from "aos";
+import "aos/dist/aos.css"
 
 
 function Footer() {
+    useEffect(()=>{
+        AOS.init({
+            duration:1000,
+        })
+    },[])
+
+
     return(
         <footer>
-            <section>
-                <div className="menciones">
+            <section data-aos="fade-up">
+                <div className="menciones" data-aos="fade-right">
                     <h4>Mencionado en</h4>
                     <div>
                         <p>planetaTour</p>
@@ -14,7 +24,7 @@ function Footer() {
                         <p>mundo viajes</p>
                     </div>
                 </div>
-                <div className="Social-footer">
+                <div className="Social-footer" data-aos="fade-left">
                     <span>
                         <i className='bx bxl-facebook'></i>
                         <p>Facebook</p>

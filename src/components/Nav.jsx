@@ -29,22 +29,22 @@ function Nav(params) {
                         <ul className={`${visibility? " ":"visiblity-var"}`}>
 
                                 <li>
-                                    <Link to="/">Inicio</Link>
+                                    <Link  className="link-nav" to="/">Inicio</Link>
                                 </li>
                                 <li>
-                                    <Link to="/home/SobreMi">Sobre Mi</Link>
+                                    <Link  className="link-nav" to="/home/SobreMi">Sobre Mi</Link>
                                 </li>
                                 <li>
-                                    <Link to="/home/Destinos">Destinos</Link>
+                                    <Link className="link-nav"  to="/home/Destinos">Destinos</Link>
                                 </li>
                                 <li>
-                                    <Link to="/home/Gastronomia">Gastronomia</Link>
+                                    <Link className="link-nav"  to="/home/Gastronomia">Gastronomia</Link>
                                 </li>
                                 <li>
-                                    <Link to="/home/Relax">Relax</Link>
+                                    <Link className="link-nav"  to="/home/Relax">Relax</Link>
                                 </li>
                                 <li>
-                                    <Link to="/home/Videos">Videos</Link>
+                                    <Link className="link-nav"  to="/home/Videos">Videos</Link>
                                 </li>
                                 
                             </ul>

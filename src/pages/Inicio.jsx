@@ -10,7 +10,6 @@ function Inicio(){
     return (
         <main>
             <Main></Main>
-            <Aside></Aside>
             <Blog></Blog>
         </main>
         

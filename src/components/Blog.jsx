@@ -46,7 +46,7 @@ function Blog(){
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                             </p>
                         </div>
-                        <div>
+                        <div className="content-comment">
                             <span><i className='bx bxs-heart'></i></span>
                             <span><i className='bx bx-comment'></i></span>
                         </div>
@@ -71,7 +71,7 @@ function Blog(){
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elite.
                             </p>
                         </div>
-                        <div>
+                        <div className="content-comment">
                             <span><i className='bx bxs-heart'></i></span>
                             <span><i className='bx bx-comment'></i></span>
                         </div>

@@ -10,10 +10,15 @@ import Gastronomia from './pages/Gastronomia'
 import Relax from './pages/Relax'
 import Videos from './pages/Videos'
 import SobreMi from './pages/SobreMi'
+import AOS from "aos";
+import { useEffect } from 'react'
+
 
 
 function App() {
+ 
   
+
 
   return (
     <Router>

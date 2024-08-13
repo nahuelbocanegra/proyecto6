@@ -1,20 +1,22 @@
+import { Link } from "react-router-dom"
+
 function Aside(){
     return(
         <aside>
             <ul>
                 <li className="li-aside li-aside-uno">
                     <div>
-                        <a href="">Destinos</a>
+                        <Link to={"/home/Destinos"} >Destinos</Link>
                     </div>
                 </li>
                 <li className="li-aside li-aside-dos">
                     <div>
-                        <a href="">Gastronomia</a>
+                        <Link to={"/home/Gastronomia"}>Gastronomia</Link>
                     </div>
                 </li>
                 <li className="li-aside li-aside-tres">
                     <div>
-                        <a href="">Relax</a>
+                        <Link to={"/home/Relax"}> Relax</Link>
                     </div>
                 </li>
             </ul>
