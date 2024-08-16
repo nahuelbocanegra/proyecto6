@@ -2,11 +2,11 @@ import Blog from "../components/Blog";
 
 function Gastronomia(){
     return(
-        <section>
-            <h2>
+        <section className="Gastronomia">
+            <h2 className="title-gastronomia">
                 Gastronomia
             </h2>
-            <p>Lorem ipsum dolor sit 
+            <p className="text-gastronomia">Lorem ipsum dolor sit 
                 amet consectetur adipisicing elit. 
                 Quaerat non doloremque praesentium, 
                 ducimus modi facilis? Sed voluptates 

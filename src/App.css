@@ -3,6 +3,7 @@
 @import url("./css/blog.less");
 @import url("./css/aside.less");
 @import url("./css/pages/sobreMi.less");
+@import url("./css/pages/destinos.less");
 
 *{
     padding: 0;

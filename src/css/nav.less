@@ -8,6 +8,7 @@
     grid-column: 1fr 1fr;
     grid-row: 1fr 1fr
 }
+
 .navBar{
     justify-content: space-around;
     flex-direction: column;
@@ -21,7 +22,6 @@
     transition: all 0.5s ease-in-out;
     border-radius: 0 0 0 10px;
     font-size: 1.2rem;
-    
     font-weight: 600;
     z-index:100
 }
@@ -37,38 +37,39 @@ header{
     background-color: rgb(237, 237, 237);
     nav{
         position: relative;
+        
         .flex();
+
         justify-content: end;
         grid-area: NavBar;
+
         i{
             font-size: 2rem;
             color: blue;
         }
-        .visiblity-var{
 
+        .visiblity-var{
             .flex();
             .navBar();
             right: -15px;
             
             li{
-
+                transition: all .2s ease-in; 
                 .link-nav{
                     text-decoration: none;
                     color: #ffffff;
                     cursor: pointer;
                 }
-                transition: all .2s ease-in; 
             }
             li:hover{
                 scale: 1.4rem
             }
-           
-            
         }
         ul{
             .flex();
             .navBar();
-            right: -400%;
+            right: -200%;
+            display: none;
         }
     }
     .inputSearch{

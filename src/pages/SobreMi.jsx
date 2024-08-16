@@ -3,12 +3,12 @@ import img from "../assets/img/img"
 
 function SobreMi(params) {
     return(
-        <article>
-            <section>
+        <article className="sobreMi">
+            <section className="cont-sobreMi">
                 <h2>sobre mi</h2>
-                <img src={img.persona} alt="" />
+                <img className="img-sobreMi" src={img.persona} alt="" />
             </section>
-                <p>
+                <p className="text-sobreMi">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Velit fugiat consequuntur quod incidunt aperiam quo accusamus error quasi obcaecati, 
                     libero ipsa quae voluptate.
