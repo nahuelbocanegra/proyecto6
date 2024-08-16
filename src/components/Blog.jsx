@@ -4,7 +4,7 @@ function Blog(){
     return(
         <article className="contentBlog">
             <ul className="list-blog">
-                <li className="post-blog">
+                <li className="post-blog" data-aos="zoom-in">
                     <img src={img.piramides} alt="" />
                     <section>
                         <div className="data-blog-user">
@@ -28,7 +28,7 @@ function Blog(){
                         </div>
                     </section>
                 </li>
-                <li className="post-blog">
+                <li className="post-blog" data-aos="zoom-in">
                     <img src={img.montaña} alt="" />
                     <section>
                         <div className="data-blog-user">
@@ -53,7 +53,7 @@ function Blog(){
                     </section>
                 </li>
                
-                <li className="post-blog">
+                <li className="post-blog" data-aos="zoom-in">
                     <img src={img.comida} alt="" />
                     <section>
                         <div className="data-blog-user">
