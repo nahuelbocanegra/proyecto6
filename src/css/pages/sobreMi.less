@@ -1,9 +1,16 @@
-sibreMi{
+.cont-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+}
+
+.sobreMi{
     padding: 10px;
+
     .cont-sobreMi{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        .cont-flex();
         align-items: center;
         gap: 15px;
 
@@ -17,6 +24,8 @@ sibreMi{
         width: 300px;
         max-width: 400px;
         font-size: 1rem;
+        font-weight: 400;
+        line-height: 25px;
         margin:15px 0;
     }
 }

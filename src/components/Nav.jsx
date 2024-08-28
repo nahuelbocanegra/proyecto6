@@ -11,6 +11,7 @@ import Destinos from "../pages/Destinos";
 
 function Nav(params) {
     const [visibility,setVisibility]=useState(false)
+    console.log(visibility)
 
 
     return(

@@ -14,7 +14,7 @@ function SobreMi(params) {
                     libero ipsa quae voluptate.
                      Repudiandae consectetur alias blanditiis debitis repellendus nulla!
                 </p>
-
+        
         </article>
     )
 }

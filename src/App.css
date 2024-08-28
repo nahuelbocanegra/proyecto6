@@ -4,6 +4,9 @@
 @import url("./css/aside.less");
 @import url("./css/pages/sobreMi.less");
 @import url("./css/pages/destinos.less");
+@import url("./css/pages/relax.less");
+@import url("./css/pages/gastronomia.less");
+@import url("./css/pages/videos.less");
 
 *{
     padding: 0;
